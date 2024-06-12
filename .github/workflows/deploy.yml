@@ -20,3 +20,5 @@ jobs:
               -Dsonar.organization=cuong199344
               -Dsonar.projectKey=cuong199344
               -Dsonar.python.coverage.reportPaths=coverage.xml
+      - name: Check code
+        run: ls
